@@ -57,6 +57,14 @@ structure similarity, and feeds the result to the decoder. Norm represents the n
   - pytorch 
   - opencv 
 
+## 🐍 virtual environment
+```bash
+conda create -n LCGNet python=3
+conda activate LCGNet
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install opencv-python
+```
+
 ## ✏️ Usage <a name="6"></a>
 ### Download models
 Download [models](https://pan.baidu.com/s/1IIaX2CDG-rH2gLjAwhV2TA) (Password: wuj2) and put `decoder.pth`, `PSF.pth`,`vgg_normalised.pth` under `models/`.
