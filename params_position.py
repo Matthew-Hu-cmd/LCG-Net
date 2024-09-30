@@ -8,13 +8,13 @@ back_path = 'input_data/background_images/1.jpg',
 # Zoom
 zoomSize = 1,
 # Pan
-Vertical = -100,
-Horizontal = -50,
+Vertical = 0,
+Horizontal = 0,
 # Crop
 Left = 0,
-Right = -1,
-Top = 50,
-Bottom = 600+1,)
+Right = 0,
+Top = 0,
+Bottom = 0,)
 
 
 #2
